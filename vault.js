@@ -6,7 +6,7 @@ module.exports = function() {
     }
      function getValue(key) {
       if (theVault[key]) {
-        return theVault;
+        return theVault[key];
       }else{
       return null;
     }
